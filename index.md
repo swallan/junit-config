@@ -1,5 +1,13 @@
 It can be difficult to get everything correctly on your machine. If it’s not working, don’t dwell on it and test on the servers for now.
 
+On this page there are instructions for several methods:
+- Windows command prompt
+- macOS terminal
+- jUnit 
+- Windows Subsystem for Linux (Advanced)
+
+
+
 ## Windows Instructions:
 
 1. Download `hamcrest-core-1.3.jar` and `junit-4.12.jar` from canvas.
@@ -23,11 +31,7 @@ Inside directory where your files are:
 
 
 
-
-
-
-
-## IntelliJ
+## IntelliJ Instructions
 
 
 First you'd need to download IntelliJ (linked on canvas) and download the junit and hamcrest jar files (on the bottom of the canvas page). Then:
@@ -57,8 +61,9 @@ First you'd need to download IntelliJ (linked on canvas) and download the junit 
 
 
 
-## Windows Subsystem for Linux (WSL)
+## Windows Subsystem for Linux (WSL) - student contribution
 
+This is a student contribution and has not been independently tested by me yet.
 
 The secondary way is to [install WSL(Windows Subsystem for Linux) and choose Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab). After that, open an *elevated* command prompt, and run this command: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all`. Then all you have to do is to search “Ubuntu” from your windows taskbar, open it, and you’ll get a terminal window. Now run the following to configure the environment:
 
