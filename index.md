@@ -13,7 +13,11 @@ On this page there are instructions for several methods:
 ## Windows Instructions:
 
 1. Download `hamcrest-core-1.3.jar` and `junit-4.12.jar` from canvas.
-2. Add them to your classpath: `set CLASSPATH=.;C:\Users\Samuel Wallan\Desktop\junit-4.12.jar.;C:\Users\Samuel Wallan\Desktop\hamcrest-core-1.3.jar `Replace the path to the files with where they are on your computer, and make sure that the punctuation is exactly the same. `
+2. Add them to your classpath: 
+```
+set CLASSPATH=.;C:\Users\Samuel Wallan\Desktop\junit-4.12.jar.;C:\Users\Samuel Wallan\Desktop\hamcrest-core-1.3.jar 
+```
+Replace the path to the files with where they are on your computer, and make sure that the punctuation is exactly the same. 
 
 Inside directory where your files are:
 
@@ -27,7 +31,9 @@ Inside directory where your files are:
 ## Mac Instructions:
 
 1. Download `hamcrest-core-1.3.jar` and `junit-4.12.jar` from canvas.
-2. Add them to your classpath: `export CLASSPATH="$CLASSPATH:/Users/swallan/Downloads/hamcrest-core-1.3.jar:/Users/swallan/Downloads/junit-4.12.jar:."` Replace the path to the files with where they are on your computer, and make sure that the punctuation is exactly the same.
+2. Add them to your classpath: 
+```export CLASSPATH="$CLASSPATH:/Users/swallan/Downloads/hamcrest-core-1.3.jar:/Users/swallan/Downloads/junit-4.12.jar:."```
+ Replace the path to the files with where they are on your computer, and make sure that the punctuation is exactly the same.
 3. Compile: `javac Point.java TestCases.java`
 4. Run: `java org.junit.runner.JUnitCore TestCases`:![s3-1](s3-1.png)
 
