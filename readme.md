@@ -58,6 +58,7 @@ First you'd need to download IntelliJ (linked on canvas) and download the junit 
 
 
 ## Windows Subsystem for Linux (WSL)
+[wsl](#wsl)
 
 
 The secondary way is to [install WSL(Windows Subsystem for Linux) and choose Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab). After that, open an *elevated* command prompt, and run this command: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all`. Then all you have to do is to search “Ubuntu” from your windows taskbar, open it, and you’ll get a terminal window. Now run the following to configure the environment:
