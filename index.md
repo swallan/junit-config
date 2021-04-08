@@ -69,7 +69,7 @@ First you'd need to download IntelliJ (linked on canvas) and download the junit 
 
 
 
-## Windows Subsystem for Linux (WSL) - student contribution
+## Windows Subsystem for Linux (WSL)
 
 This is a student contribution and has not been independently tested by me yet.
 
