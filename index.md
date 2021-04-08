@@ -3,10 +3,10 @@ See an error or outdated instructions on this page? [Submit an issue on github t
 It can be difficult to get everything correctly on your machine. If it’s not working, don’t dwell on it and test on the servers for now.
 
 On this page there are instructions for several methods:
-- [Windows command prompt](#windows-subsystem-for-linux-wsl)
-- macOS terminal
-- jUnit 
-- Windows Subsystem for Linux (Advanced)
+- [Windows command prompt](#windows-instructions)
+- [macOS terminal](#mac-instructions)
+- [IntelliJ](#intellij-instructions)
+- [Windows Subsystem for Linux (Advanced)](#windows-subsystem-for-linux-wsl)
 
 
 
